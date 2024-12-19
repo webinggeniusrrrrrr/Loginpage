@@ -1,15 +1,16 @@
-import { initializeApp } from "https://www.gstatic.com/firebasejs/9.22.1/firebase-app.js";
-import { getAuth, onAuthStateChanged, signOut, createUserWithEmailAndPassword, signInWithEmailAndPassword, updateProfile } from "https://www.gstatic.com/firebasejs/9.22.1/firebase-auth.js";
-import { getDatabase, ref, set, push, onValue, remove, update } from "https://www.gstatic.com/firebasejs/9.22.1/firebase-database.js";
+import { initializeApp } from "https://www.gstatic.com/firebasejs/11.0.1/firebase-app.js";
+import { getAuth, onAuthStateChanged, signOut, createUserWithEmailAndPassword, signInWithEmailAndPassword, updateProfile } from "https://www.gstatic.com/firebasejs/11.0.1/firebase-auth.js";
+import { getDatabase, ref, set, push, onValue, remove, update } from "https://www.gstatic.com/firebasejs/11.0.1/firebase-database.js";
 
 const firebaseConfig = {
-  apiKey: "AIzaSyCXKwTmQHRdopHmdPV56Uypxt3yy-vm4Ls",
-  authDomain: "auth-js-c349b.firebaseapp.com",
-  databaseURL:"https://auth-js-c349b-default-rtdb.firebaseio.com",
-  projectId: "auth-js-c349b",
-  storageBucket: "auth-js-c349b.appspot.com",
-  messagingSenderId: "8525102033",
-  appId: "1:8525102033:web:19c8b591e44c8213ee7ef0"
+  apiKey: "AIzaSyCOntxgwbQOEC9z2e4gDB38ndDlh5t033M",
+  authDomain: "database-35dcc.firebaseapp.com",
+  databaseURL: "https://database-35dcc-default-rtdb.firebaseio.com",
+  projectId: "database-35dcc",
+  storageBucket: "database-35dcc.firebasestorage.app",
+  messagingSenderId: "248454396270",
+  appId: "1:248454396270:web:c465eee27cbda9489b297f",
+  measurementId: "G-04JMRWBRPH"
 };
 
 const app = initializeApp(firebaseConfig);
